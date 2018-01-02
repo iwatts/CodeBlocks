@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514924557 source:c:\users\kagan\desktop\sites\codeblocks\006\separate\main.cpp
+	<iostream>
+	"MyClass.h"
+
+1514925152 c:\users\kagan\desktop\sites\codeblocks\006\separate\myclass.h
+
+1514924043 source:c:\users\kagan\desktop\sites\codeblocks\006\separate\myclass.cpp
+	"MyClass.h"
+	<iostream>
+
