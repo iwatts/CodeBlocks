@@ -10,7 +10,7 @@ MyClass::MyClass(int a, int b)
 }
 
 void MyClass::myPrint() const{
-  cout <<"Hello"<<endl;
+    cout << "Hello" << endl;
 }
 
 /*MyClass::~MyClass(){
