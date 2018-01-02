@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="MyClass.cpp" />
+		<Unit filename="MyClass.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
