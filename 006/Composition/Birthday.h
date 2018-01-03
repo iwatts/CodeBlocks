@@ -1,6 +1,7 @@
 #ifndef BIRTHDAY_H
 #define BIRTHDAY_H
-
+#include <iostream>
+#include <string>
 
 class Birthday
 {
@@ -9,8 +10,7 @@ class Birthday
         : month(m), day(d), year(y){
         }
         void printDate() {
-            cout<<month<<"/"<<day
-            <<"/"<<year<<endl;
+            cout << month << "/" << day << "/" << year << endl;
         }
 
     protected:

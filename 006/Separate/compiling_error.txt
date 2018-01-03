@@ -1,0 +1,4 @@
+C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Separate\main.cpp:3:22: fatal error: Birthday.h: No such file or directory
+ #include "Birthday.h"
+                      ^
+compilation terminated.
