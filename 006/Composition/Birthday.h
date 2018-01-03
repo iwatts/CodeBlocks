@@ -1,7 +1,6 @@
 #ifndef BIRTHDAY_H
 #define BIRTHDAY_H
-#include <iostream>
-#include <string>
+
 
 class Birthday
 {

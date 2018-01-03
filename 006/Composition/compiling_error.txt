@@ -1,66 +1,18 @@
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:0:
 C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h: In member function 'void Birthday::printDate()':
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:12:13: error: 'cout' was not declared in this scope
+C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:13:13: error: 'cout' was not declared in this scope
              cout << month << "/" << day << "/" << year << endl;
              ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:12:13: note: suggested alternative:
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3:0,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:
+C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:13:13: note: suggested alternative:
+In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3:0:
 C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/iostream:61:18: note:   'std::cout'
    extern ostream cout;  /// Linked to standard output
                   ^
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:0:
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:12:59: error: 'endl' was not declared in this scope
+C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:13:59: error: 'endl' was not declared in this scope
              cout << month << "/" << day << "/" << year << endl;
                                                            ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:12:59: note: suggested alternative:
+C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:13:59: note: suggested alternative:
 In file included from C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/iostream:39:0,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:
+                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3:
 C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/ostream:564:5: note:   'std::endl'
      endl(basic_ostream<_CharT, _Traits>& __os)
      ^
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:2:0:
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h: At global scope:
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:11:23: error: expected ')' before 'n'
-         Person(string n, Birthday b)
-                       ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:22:9: error: 'string' does not name a type
-         string name;
-         ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h: In member function 'void Person::printInfo()':
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:15:13: error: 'cout' was not declared in this scope
-             cout << name << endl;
-             ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:15:13: note: suggested alternative:
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3:0,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:
-C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/iostream:61:18: note:   'std::cout'
-   extern ostream cout;  /// Linked to standard output
-                  ^
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:2:0:
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:15:21: error: 'name' was not declared in this scope
-             cout << name << endl;
-                     ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:15:29: error: 'endl' was not declared in this scope
-             cout << name << endl;
-                             ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:15:29: note: suggested alternative:
-In file included from C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/iostream:39:0,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Birthday.h:3,
-                 from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:1:
-C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/ostream:564:5: note:   'std::endl'
-     endl(basic_ostream<_CharT, _Traits>& __os)
-     ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp: In function 'int main()':
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:9:23: error: no matching function for call to 'Person::Person(const char [6], Birthday&)'
-   Person p("Isaac", bd);
-                       ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:9:23: note: candidates are:
-In file included from C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\main.cpp:2:0:
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:8:7: note: Person::Person()
- class Person
-       ^
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:8:7: note:   candidate expects 0 arguments, 2 provided
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:8:7: note: Person::Person(const Person&)
-C:\Users\Kagan\Desktop\Sites\CodeBlocks\006\Composition\Person.h:8:7: note:   candidate expects 1 argument, 2 provided
