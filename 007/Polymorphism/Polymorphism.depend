@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1515181181 source:c:\users\kagan\desktop\sites\codeblocks\007\polymorphism\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
