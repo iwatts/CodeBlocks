@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1515453645 source:c:\users\kagan\desktop\sites\codeblocks\008\files\main.cpp
+	<iostream>
+	<fstream>
+
