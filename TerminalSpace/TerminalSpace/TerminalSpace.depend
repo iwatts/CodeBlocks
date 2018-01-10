@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1515612156 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\main.cpp
+1515613890 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\main.cpp
 	<iostream>
 	"System.h"
 	"Game.h"
@@ -10,10 +10,10 @@
 	<iostream>
 	"System.h"
 
-1515610113 c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.h
+1515612629 c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.h
 	<cstring>
 
-1515612284 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.cpp
+1515613739 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.cpp
 	<iostream>
 	"Game.h"
 	"System.h"

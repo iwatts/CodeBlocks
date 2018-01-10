@@ -13,6 +13,7 @@ Game::Game()
 
 Game::Listen()
 {
+    cout << "Awaiting command:" << endl;
     cin >> input;
 }
 

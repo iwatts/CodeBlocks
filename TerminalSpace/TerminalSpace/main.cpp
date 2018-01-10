@@ -12,6 +12,7 @@ int main()
     if(gm.input == 'q') {
         return 0;
     } else {
+        cout << gm.input << endl;
         gm.Listen();
     }
 }
