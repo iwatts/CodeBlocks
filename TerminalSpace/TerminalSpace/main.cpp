@@ -10,6 +10,7 @@ int main()
     Game gm;
     gm.Listen();
     if(gm.input == 'q') {
+        cout << gm.input << endl;
         return 0;
     } else {
         cout << gm.input << endl;
