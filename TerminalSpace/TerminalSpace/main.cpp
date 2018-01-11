@@ -13,7 +13,7 @@ int main()
         //cout << gm.input << endl;
         return 0;
     } else {
-        cout << gm.input << endl;
+        //cout << gm.input << endl;
         gm.Listen();
     }
 }
