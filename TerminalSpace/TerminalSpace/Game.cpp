@@ -1,13 +1,17 @@
+#include <string>
 #include <iostream>
 #include "Game.h"
-#include "System.h"
+#include "ts_System.h"
 
 using namespace std;
 
 Game::Game()
 {
     //ctor
+    bool running = true;
+    string input;
     System sys1;
+
 
 }
 

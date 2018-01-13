@@ -1,10 +1,10 @@
 #include <iostream>
-#include "System.h"
+#include "ts_System.h"
 
 using namespace std;
 
 System::System()
 {
     //ctor
-    cout << "System Made" << endl;
+    cout << "System Generated..." << endl;
 }

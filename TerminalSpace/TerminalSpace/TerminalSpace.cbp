@@ -34,9 +34,9 @@
 		</Compiler>
 		<Unit filename="Game.cpp" />
 		<Unit filename="Game.h" />
-		<Unit filename="System.cpp" />
-		<Unit filename="System.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="ts_System.cpp" />
+		<Unit filename="ts_System.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

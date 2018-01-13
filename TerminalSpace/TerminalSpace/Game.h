@@ -1,12 +1,14 @@
-#include <cstring>
 #ifndef GAME_H
 #define GAME_H
+#include <string>
+#include <iostream>
 
 
 class Game
 {
     public:
-        char input;
+        std::string input;
+        bool running;
         Game();
         Listen();
         virtual ~Game();
