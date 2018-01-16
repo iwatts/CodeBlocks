@@ -1,7 +1,6 @@
 #include <string>
 #include <iostream>
 #include "Game.h"
-#include "ts_System.h"
 
 using namespace std;
 
@@ -10,13 +9,12 @@ Game::Game()
     //ctor
     bool running = true;
     string input;
-    System sys1;
-
 
 }
 
 Game::Listen()
 {
+    // Listens for user input and sets it to input var
     cout << "Awaiting command:" << endl;
     cin >> input;
 }

@@ -1,15 +1,15 @@
-#ifndef SYSTEM_H
-#define SYSTEM_H
+#ifndef TS_SYSTEM_H
+#define TS_SYSTEM_H
 
 
-class System
+class ts_system
 {
     public:
-        System();
+        ts_system();
 
     protected:
 
     private:
 };
 
-#endif // SYSTEM_H
+#endif // TS_SYSTEM_H

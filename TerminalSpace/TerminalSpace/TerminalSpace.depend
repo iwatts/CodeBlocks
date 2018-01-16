@@ -10,13 +10,14 @@
 	<iostream>
 	"System.h"
 
-1515612629 c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.h
-	<cstring>
+1516029595 c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.h
+	<string>
+	<iostream>
 
-1515613739 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.cpp
+1516116928 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\game.cpp
+	<string>
 	<iostream>
 	"Game.h"
-	"System.h"
 
 1515880505 source:c:\users\isaac\desktop\c++\codeblocks\terminalspace\terminalspace\game.cpp
 	<string>
@@ -45,4 +46,10 @@
 	"ts_System.h"
 
 1515626255 c:\users\isaac\desktop\c++\codeblocks\terminalspace\terminalspace\ts_system.h
+
+1516117041 source:c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\ts_system.cpp
+	<iostream>
+	"ts_system.h"
+
+1516117195 c:\users\kagan\desktop\sites\codeblocks\terminalspace\terminalspace\ts_system.h
 

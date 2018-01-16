@@ -1,10 +1,9 @@
 #include <iostream>
-#include "ts_System.h"
+#include "ts_system.h"
 
 using namespace std;
 
-System::System()
+ts_system::ts_system()
 {
-    //ctor
     cout << "System Generated..." << endl;
 }
