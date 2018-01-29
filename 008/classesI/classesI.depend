@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1517182271 source:c:\users\isaac\desktop\c++\codeblocks\008\classesi\main.cpp
+	<iostream>
+	"rectangle_tutorial.h"
+
+1517182377 c:\users\isaac\desktop\c++\codeblocks\008\classesi\rectangle_tutorial.h
+
+1517182375 source:c:\users\isaac\desktop\c++\codeblocks\008\classesi\rectangle_tutorial.cpp
+	"rectangle_tutorial.h"
+	<iostream>
+
